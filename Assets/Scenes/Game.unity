@@ -12792,7 +12792,7 @@ GameObject:
   - component: {fileID: 1317501157}
   - component: {fileID: 1317501158}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GridManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12824,11 +12824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fedea32c5cd620946984298e2dd0f15b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node:
-    coordinates: {x: 2, y: 1}
-    isWalkable: 1
-    isExplored: 0
-    isPath: 0
+  gridSize: {x: 4, y: 3}
 --- !u!1001 &1325747091
 PrefabInstance:
   m_ObjectHideFlags: 0
